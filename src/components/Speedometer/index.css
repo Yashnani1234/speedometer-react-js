@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.image {
+  width: 60vw;
+  height: 40vh;
+}
+
+.count {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.para {
+  color: #cbd5e1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1 {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-style: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.button2 {
+  color: #94a3b8;
+  border-width: 2px;
+  border-color: #94a3b8;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
